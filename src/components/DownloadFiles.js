@@ -1,5 +1,5 @@
 import pdfFile from '../resources/Instrumento de evaluación del conjunto de recomendaciones.pdf';
-import excelFile from '../resources/Instrumento.xlsx';
+import excelFile from '../resources/Instrumento de evaluación.xlsx';
 import { saveAs } from 'file-saver';
 
 const filename = 'Instrumento de evaluación del conjunto de recomendaciones';
