@@ -33,6 +33,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route exact path="/" Component={Home} />
+          <Route exact path="/Prototipo-herramienta-web" Component={Home} />
           <Route path="/recomendaciones" Component={Recomendations} />
           <Route path="/recomendaciones/generales" Component={GeneralRecommedations} />
           <Route path="/recomendaciones/generales/descripcion" Component={DescriptionGeneral} />

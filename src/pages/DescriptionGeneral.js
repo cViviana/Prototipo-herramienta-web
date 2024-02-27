@@ -11,7 +11,7 @@ const DescriptionGeneral = () =>{
             </div>            
             <div className="order">
                 {DescriptionGeneralRecommendations.map((item) => (
-                    <Description url={item.url} title={item.title} text={item.text} />
+                    <Description key={item.id} url={item.url} title={item.title} text={item.text} />
                 ))}
             </div>                       
         </div>

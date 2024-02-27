@@ -1,4 +1,9 @@
 import { Link } from 'react-router-dom';
+import imgAdaptability from '../resources/buttons/Adaptability.png';
+import imgAccessibility from '../resources/buttons/Accessibility.png';
+import imgPositiveStimulation from '../resources/buttons/PositiveStimulation.png';
+import imgLevelStructure from '../resources/buttons/LevelStructure.png';
+import imgEcologicalMechanism from '../resources/buttons/EcologicalMechanism.png';
 
 const ApplicationExamples = () =>{
     return (
@@ -8,31 +13,31 @@ const ApplicationExamples = () =>{
             <div className='order'>
                 <Link to="/ejemplos_de_aplicacion/adaptabilidad">
                     <button className='button-specific-recommendations'>
-                        <img src="/Buttons/Adaptability.png" alt="Adaptabilidad" />
+                        <img src={imgAdaptability} alt="Adaptabilidad" />
                         <span>Adaptabilidad</span>
                     </button>
                 </Link>
                 <Link to="/ejemplos_de_aplicacion/accesibilidad">
                     <button className='button-specific-recommendations'>
-                        <img src="/Buttons/Accessibility.png" alt="Accesibilidad" />
+                        <img src={imgAccessibility} alt="Accesibilidad" />
                         <span>Accesibilidad</span>
                     </button>
                 </Link>
                 <Link to="/ejemplos_de_aplicacion/estimulacion_positiva">
                     <button className='button-specific-recommendations'>
-                        <img src="/Buttons/PositiveStimulation.png" alt="Estimulacion positiva" />
+                        <img src={imgPositiveStimulation} alt="Estimulacion positiva" />
                         <span>Estimulacion positiva</span>
                     </button>
                 </Link>
                 <Link to="/ejemplos_de_aplicacion/estructura_de_niveles">
                     <button className='button-specific-recommendations'>
-                        <img src="/Buttons/LevelStructure.png" alt="Estructura de niveles" />
+                        <img src={imgLevelStructure} alt="Estructura de niveles" />
                         <span>Estructura de niveles</span>
                     </button>
                 </Link>
                 <Link to="/ejemplos_de_aplicacion/mecanismo_ecologico">
                     <button className='button-specific-recommendations'>
-                        <img src="/Buttons/EcologicalMechanism.png" alt="Mecanismo ecológico" />
+                        <img src={imgEcologicalMechanism} alt="Mecanismo ecológico" />
                         <span>Mecanismo ecológico</span>
                     </button>
                 </Link>

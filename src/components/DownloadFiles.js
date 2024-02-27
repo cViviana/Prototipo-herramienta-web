@@ -2,6 +2,7 @@ import pdfFile from '../resources/Instrumento de evaluación del conjunto de re
 import excelFile from '../resources/Instrumento de evaluación.xlsx';
 import { saveAs } from 'file-saver';
 import pdfImg from '../resources/buttons/pdf.png';
+import excelImg from '../resources/buttons/excel.png';
 
 const filename = 'Instrumento de evaluación del conjunto de recomendaciones';
 
@@ -18,7 +19,7 @@ const DownloadFiles = () => {
           <span>Descargar PDF</span>
         </button>
         <button className="button-file" onClick={() => download(excelFile, filename, 'xlsx')}>
-          <img src="../resources/buttons/excel.png" alt="Descargar Excel" />
+          <img src={excelImg} alt="Descargar Excel" />
           <span>Descargar EXCEL</span>
         </button>
       </div>
