@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Prototipo-herramienta-web/static/css/main.ce978370.css",
+    "main.js": "/Prototipo-herramienta-web/static/js/main.a0ada044.js",
+    "static/js/787.d4aba7ab.chunk.js": "/Prototipo-herramienta-web/static/js/787.d4aba7ab.chunk.js",
+    "static/media/Instrumento de evaluación del conjunto de recomendaciones.pdf": "/Prototipo-herramienta-web/static/media/Instrumento de evaluación del conjunto de recomendaciones.b5bf0c9f0b41d51ee80b.pdf",
+    "static/media/Instrumento de evaluación.xlsx": "/Prototipo-herramienta-web/static/media/Instrumento de evaluación.09986c5184907bd8ce25.xlsx",
+    "index.html": "/Prototipo-herramienta-web/index.html",
+    "main.ce978370.css.map": "/Prototipo-herramienta-web/static/css/main.ce978370.css.map",
+    "main.a0ada044.js.map": "/Prototipo-herramienta-web/static/js/main.a0ada044.js.map",
+    "787.d4aba7ab.chunk.js.map": "/Prototipo-herramienta-web/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce978370.css",
+    "static/js/main.a0ada044.js"
+  ]
+}
